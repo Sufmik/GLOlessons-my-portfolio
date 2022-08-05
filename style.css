@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font: 400 16px 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #0f141e;
+}
+
+a {
+    color: #0f141e;
+    text-decoration: underline;
+    /*плавное подчеркивание ссылки при наведении*/
+    text-decoration-color: transparent;
+    /*плавное подчеркивание ссылки при наведении*/
+    transition: 2s;
+    /*плавное подчеркивание ссылки при наведении*/
+}
+
+a:hover {
+    text-decoration: underline;
+    /*плавное подчеркивание ссылки при наведении*/
+    text-decoration-color: #0f141e;
+    /*плавное подчеркивание ссылки при наведении*/
+}
+
+.header {
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 24px
+}
+
+.nav__item {}
+
+.nav__link {
+    color: #BF7506;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.nav__link.active {
+    font-weight: 700;
+}
