@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
-    background-color: #f1f1f1;
+    background-color: white;
     color: #0f141e;
 
     font: 400 16px 'Inter', sans-serif;
@@ -33,13 +33,17 @@ a:hover {
     /*плавное подчеркивание ссылки при наведении*/
 }
 
-.header {
+.container {
     max-width: 870px;
     width: 100%;
     margin: auto;
+}
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 74px;
 }
 
 .logo {}
@@ -64,4 +68,74 @@ a:hover {
 
 .nav__link.active {
     font-weight: 700;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.main__text {
+    margin-left: 27px;
+}
+
+.main__strong {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+
+.main__info {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #BF7506;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.social__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-right: 60px;
+}
+
+.social__item {
+    padding: 8px;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+}
+
+.button_download {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: white;
+    border-bottom: 2px solid #BF7506;
+}
+
+.cv__link {
+    padding-right: 4px;
+}
+
+.cv__text {
+    display: inline;
+    padding: 8px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
 }
