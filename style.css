@@ -139,3 +139,42 @@ a:hover {
     font-size: 16px;
     line-height: 150%;
 }
+
+
+/* Секция с портфолио */
+
+.section__heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+}
+
+.cards {
+    display: flex;
+    margin-top: 30px;
+}
+
+.card {}
+
+.card__img {}
+
+.card__title {}
+
+.tags__list {}
+
+.tags__item {}
+
+.tags_link {}
+
+.card__info {}
+
+.card__code {}
+
+.card__image {}
+
+.batton__text {}
+
+.card__demo {}
